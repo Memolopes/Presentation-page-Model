@@ -1,0 +1,361 @@
+/*** Global ***/
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: white;
+  line-height: 1.5em;
+  background: rgb(207, 144, 153);
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.button {
+  background: lightcoral;
+  border: white solid;
+  border-radius: 10px;
+  width: 100%;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: justify;
+}
+
+/*** Header ***/
+
+header {
+  padding: 20px;
+  background-color: white;
+  border-top: red solid;
+  border-bottom: red solid;
+}
+
+header h1 {
+  color: darkorchid;
+  line-height: 2em;
+  font-size: 35px;
+}
+
+header a {
+  color: red;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header li {
+  display: inline;
+  padding-left: 10px;
+}
+
+#brand {
+  float: left;
+}
+
+#brand h1 {
+  margin: 0;
+}
+
+nav {
+  padding-top: 25px;
+  float: right;
+}
+
+.current a {
+  color: darkorchid;
+  font-weight: bold;
+}
+
+a:hover {
+  color: darkorchid;
+}
+
+/*** Description ***/
+
+#showcase {
+  background: url("../img/showcase.png") no-repeat;
+  min-height: 300px;
+  background-size: cover;
+  color: white;
+  border-bottom: red solid;
+}
+
+#showcase h1 {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 49px;
+  line-height: 1em;
+  text-shadow: 2px 2px red;
+}
+
+#showcase p {
+  text-align: center;
+  margin-top: -10px;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+}
+
+/*** Experience ***/
+
+#resume {
+  min-height: 100px;
+  margin-top: 20px;
+  border-bottom: red solid;
+}
+
+#resume h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.main {
+  color: white;
+  float: left;
+  width: 48%;
+  background: lightcoral;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.sidebar,
+.sidebar2 {
+  color: white;
+  background: lightcoral;
+  float: right;
+  border-radius: 10px;
+  width: 48%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/*
+#newsletter{
+    padding: 15px;
+    color: black;
+    background: white;
+    border-bottom: red solid;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 10px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+*/
+
+/*** Achievements ***/
+
+#boxes {
+  margin-top: 30px;
+}
+
+#boxes p {
+  color: white;
+  background: lightcoral;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+#boxes h2 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+#boxes .box h3 {
+  margin-top: 0px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img {
+  margin-bottom: 0px;
+  border-radius: 15px;
+  width: 100px;
+  height: 120px;
+}
+
+/*** Contact ***/
+
+/* Call & Table */
+
+.call {
+  float: left;
+  width: 63%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.call h2 {
+  font-size: 24px;
+  color: white;
+  margin-top: 35px;
+}
+
+.call p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.table {
+  font-size: 18px;
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+}
+
+table,
+td {
+  background-color: lightcoral;
+  border: solid white;
+}
+
+td {
+  height: 80px;
+  text-align: center;
+}
+
+/* Message */
+
+.sidebar2 {
+  margin-top: 40px;
+  width: 33%;
+}
+
+.sidebar2 h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form {
+  text-align: left;
+  padding: 10px;
+}
+
+form textarea {
+  border-radius: 5px;
+  width: 100%;
+  resize: none;
+}
+
+form .button {
+  margin: 10px 0 0 2px;
+}
+
+form input {
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#thanks {
+  margin-top: 170px;
+}
+
+#thanks h3 {
+  font-size: 25px;
+}
+
+#thanks .sidebar2 {
+  line-height: 1.5em;
+  margin-top: 0px;
+  padding: 60px 5px;
+}
+
+/*** Footer ***/
+
+footer {
+  padding: 25px;
+  margin-top: 70px;
+  color: darkorchid;
+  border-top: red solid;
+  border-bottom: red solid;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+}
+
+/*** Media Querys ***/
+
+@media (max-width: 768px) {
+  #brand,
+  nav,
+  .box,
+  nav li,
+  .main,
+  .call,
+  .sidebar,
+  .sidebar2 {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #brand h1 {
+    font-size: 32px;
+  }
+
+  #boxes p {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .table,
+  td {
+    font-size: 13px;
+    border: white solid 2px;
+  }
+
+  .sidebar {
+    margin-bottom: 30px;
+  }
+
+  #thanks .sidebar2 {
+    margin: 0px;
+  }
+
+  #showcase h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  #thanks {
+    margin-top: 30px;
+  }
+
+  #showcase p {
+    text-align: justify;
+    font-size: 17px;
+  }
+}
