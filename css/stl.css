@@ -5,7 +5,7 @@ body {
   font-size: 14px;
   color: white;
   line-height: 1.5em;
-  background: rgb(207, 144, 153);
+  background: rgb(223, 142, 154);
   padding: 0px;
   margin: 0px;
 }
@@ -82,7 +82,8 @@ a:hover {
 
 #showcase {
   background: url("../img/showcase.png") no-repeat;
-  min-height: 300px;
+  min-height: 34vh;
+  background-position: center;
   background-size: cover;
   color: white;
   border-bottom: red solid;
@@ -324,6 +325,10 @@ footer {
 
   #brand h1 {
     font-size: 32px;
+  }
+
+  #showcase{
+    min-height: 27vh;
   }
 
   #boxes p {
