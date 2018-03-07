@@ -10,6 +10,10 @@ body {
   margin: 0px;
 }
 
+::-webkit-scrollbar { 
+  display: none; 
+}
+
 ul {
   margin: 0px;
   padding: 0px;
