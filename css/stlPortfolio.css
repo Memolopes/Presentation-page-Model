@@ -8,6 +8,7 @@ body {
   background: rgb(223, 142, 154);
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
 }
 
 ul {
@@ -87,6 +88,7 @@ a:hover {
 
 .mainImg img {
   max-height: 600px;
+  margin: 8px; 
 }
 
 .mainImg img,
@@ -138,6 +140,10 @@ footer {
     float: none;
     width: 100%;
     text-align: center;
+  }
+
+  .mainImg img{
+    margin: 5px;
   }
 
   #brand h1 {
